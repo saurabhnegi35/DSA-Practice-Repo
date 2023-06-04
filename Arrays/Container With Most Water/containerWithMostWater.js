@@ -1,5 +1,7 @@
 var maxArea = (height) => {
   // Brute Force Approach
+  //   Time Complexity : O(n^2);
+  //   Space Complexity : O(1);
 
   //   let area = 0;
   //   if (height.length === 0 || height.length === 1) {
@@ -15,6 +17,10 @@ var maxArea = (height) => {
   //   return area;
 
   // Optimized using While Loop
+
+  //   Time Complexity : O(n);
+  //   Space Complexity : O(1);
+
   // let maxArea = 0;
   //     let left = 0;
   //     let right = height.length - 1;
